@@ -3,8 +3,8 @@ const cors = require("cors");
 const app = express();
 const {v4: uuidv4} = require("uuid");
 require("dotenv").config();
-require("./src/config/databaseConnection")
-const todoRouter = require("./src/routers/todoRouter");
+require("./config/databaseConnection")
+const todoRouter = require("./routers/todoRouter");
 
 // console.log(process.env.PORT);
 
